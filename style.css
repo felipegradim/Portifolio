@@ -576,9 +576,11 @@ a:hover {
   transform: scale(1.2);
   background-color: orange;
   border-radius: 1vh;
+  border-radius: 1vh; 
   
   
 }
 
     
 }
+  
