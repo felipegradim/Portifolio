@@ -18,7 +18,7 @@ const navbar = document.querySelector("#navbar");
 const tl = new TimelineMax();
 
 
-tl.fromTo(hi, 3, {x:"-300%"}, {x:"0%" ,ease:Power2.easeInOut})
+tl.fromTo(hi, 3, {x:"-400%"}, {x:"0%" ,ease:Power2.easeInOut})
 tl.fromTo(webdev, 1.5, {x:"300%"}, {x:"0%" ,ease:"elastic"},1)
 tl.fromTo(picture, 3, {y:"-500%"}, {y:"0%" ,ease:Bounce.easeOut},2)
 tl.fromTo(letter1, 1.5, {opacity:"0"}, {opacity:"1" ,ease:Power2.easeInOut},2)
