@@ -104,7 +104,8 @@ a:hover {
 #projects {
   background: orange;
   width: 100%;
-  height: 1400px;
+  height: auto;
+  padding-bottom: 50px;
 }
 
 #project-title{
@@ -149,6 +150,8 @@ a:hover {
   height: 450px;
   object-fit: cover;
   padding-top: 30px;
+  object-position: 0 1%;
+  
 }
 
 #survey-form-img{
@@ -163,6 +166,7 @@ a:hover {
   height: 450px;
   object-fit: cover;
   padding-top: 30px;
+  object-position: 0px 6px;
 }
 
 #doc-page-img{
@@ -170,6 +174,7 @@ a:hover {
   height: 450px;
   object-fit:cover;
   padding-top: 30px;
+  object-position: 0px 6px;
   
 }
 
@@ -181,9 +186,11 @@ a:hover {
   display:flex;
   justify-content: space-evenly;
   align-items: center;
-  height: 70px;
+  height: auto;
   padding-left: 700px;
   padding-right: 0;
+  
+  
   
   
 }
@@ -210,7 +217,7 @@ a:hover {
 
 /* PORTABLE DISPOSITIVE */
 
-@media only screen and (max-width: 1024px ){
+@media screen and (max-width: 1024px) {
 
   nav {
     display: flex;
@@ -226,8 +233,8 @@ a:hover {
     
   }
   li {
-    padding-right: 8px;
-    font-size: 13px;
+    padding: 8px;
+    font-size: 16px;
     text-transform: uppercase;
     text-align: center;
   }
@@ -260,7 +267,7 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 200px;
+  width: 220px;
   padding-top: 30px;
 
     
@@ -277,9 +284,8 @@ a:hover {
   padding:0;
   font-size: 18px;
   text-align: center;
-  
 }
-
+/*projects*/
 #projects{
   display: block;
   width: auto;
@@ -300,15 +306,26 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 380px;
+  width: 350px;
   
 }
+
+#project-title{
+  font-size: 30px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+
 .project-tile{
-  display:block;
+  display:inline-block;
   text-align: center;
-  width: 300px;
-  height: 550px;
-  margin-left: 35px;
+  width: 350px;
+  height: 300px;
+  margin: 0;
   padding-top: 30px;
   font-size: 17px;
   font-weight: bold;
@@ -319,39 +336,35 @@ a:hover {
   
 }
 
-#projects div{
-  padding-left: 2px;
-  margin-top: 40px ;
-}
-
 #tribute-page-img{
-  width: 210px;
-  height: 450px;
-  object-fit: cover;
+  width: 300px;
+  height: 200px;
+  object-fit:cover;
   padding-top: 30px;
+  object-position: 0px 1px ; 
 }
 
 #survey-form-img{
-  width: 210px;
-  height: 450px;
-  object-fit: cover;
+  width: 300px;
+  height: 200px;
+  object-fit:cover;
   padding-top: 30px;
 }
 
 #landing-page-img{
-  width: 210px;
-  height: 450px;
-  object-fit: cover;
+  width: 300px;
+  height: 200px;
+  object-fit:cover;
   padding-top: 30px;
-  object-position: 0px 2px ;  
+  object-position: 0px 1px ; 
 }
 
 #doc-page-img{
-  width: 210px;
-  height: 400px;
-  object-fit: cover;
+  width: 300px;
+  height: 155px;
+  object-fit:cover;
   padding-top: 30px;
-  object-position: 1px 0px ;  
+  object-position: 0px 1px ; 
 }
 #contact{
   display:flex;
@@ -387,11 +400,10 @@ a:hover {
 
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and  (max-width: 1366px) and (orientation: landscape)  {
   
   nav {
     display: flex;
-    padding-left: 45px;
     width: 100%;
     height: 60px;
     align-items: center;
@@ -402,13 +414,14 @@ a:hover {
 
   ul {
     margin: 0;
+    padding-left:5px ;
     
   }
   li {
-    padding-right: 8px;
-    font-size: 13px;
+    padding: 30px;
+    font-size: 23px;
     text-transform: uppercase;
-    align-items: center;
+    
   }
 
   #welcome-div{
@@ -438,7 +451,8 @@ a:hover {
   
   #picture{
    padding-left: 23px;
-    height: 220px;
+   height: 220px;
+   padding-top: 30px;
     
 }
 #title {
@@ -543,6 +557,7 @@ a:hover {
   
   
   
+  
 }
 
 .social-media img{
@@ -566,4 +581,4 @@ a:hover {
 }
 
     
-  
+}
