@@ -27,3 +27,4 @@ tl.fromTo(letter3, 1.5, {opacity:"0"}, {opacity:"1" ,ease:Power2.easeInOut},2)
 tl.fromTo(letter4, 1.5, {blinking:"0"}, {blinking:"10" ,ease:Power2.easeInOut},2)
 tl.fromTo(navbar, 1, {opacity:"0"}, {opacity:"1" ,ease:Power2.easeInOut},2)
 
+ 
