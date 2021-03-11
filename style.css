@@ -508,9 +508,8 @@ a:hover {
 .project-tile{
   display:inline-block;
   text-align: center;
-  width: 400px;
-  height: 300px;
-  margin-left: 35px;
+  width: 100%;
+  height: auto;
   padding-top: 30px;
   font-size: 17px;
   font-weight: bold;
